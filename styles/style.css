@@ -40,13 +40,14 @@ nav>ul {
     text-decoration: none;
 }
 
+/* Descendant selector: every link inside nav */
 nav a {
     display: block;
     padding: 8px 16px;
     border-radius: 20px;
 }
 
-/* Background changes when the mouse is over the link */
+/* Pseudo-class selector: style applied when mouse is over the link */
 nav a:hover {
     background-color: #ebe8e2;
 }
@@ -79,6 +80,7 @@ nav a:hover {
     cursor: pointer;
 }
 
+/* Pseudo-class selector */
 .btn:hover {
     background-color: #555;
 }
@@ -99,7 +101,7 @@ footer {
     text-align: center;
 }
 
-/* A small black line above the footer text */
+/* Pseudo-element selector: adds a small line before the footer content */
 footer::before {
     content: "";
     display: block;
@@ -109,6 +111,7 @@ footer::before {
     background-color: #1a1a1a;
 }
 
+/* Descendant selector: every <p> inside footer */
 footer p {
     margin: 0;
 }
