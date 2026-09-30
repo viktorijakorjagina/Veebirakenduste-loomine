@@ -1,1 +1,114 @@
+/* style.css - shared styles for all pages (index, addPost, login) */
 
+* {
+    box-sizing: border-box;
+}
+
+/* body is a flex column, so the footer stays at the bottom */
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f9f7f3;
+    color: #1a1a1a;
+}
+
+/* Header */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    background-color: #f9f7f3;
+    border-bottom: 1px solid #e9e6e0;
+}
+
+/* Child selector: only the ul directly inside nav */
+nav>ul {
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Descendant selector: every link inside the header */
+.site-header a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+nav a {
+    display: block;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+/* Background changes when the mouse is over the link */
+nav a:hover {
+    background-color: #ebe8e2;
+}
+
+/* Round profile icon on the right */
+.avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #ebe8e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Shared parts for other pages */
+.card {
+    background-color: white;
+    border: 1px solid #e9e6e0;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.btn {
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+input,
+textarea {
+    padding: 8px;
+    border: 1px solid #d8d4cc;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    padding: 16px;
+    background-color: #f9f7f3;
+    border-top: 1px solid #e9e6e0;
+    color: #6f6b65;
+    text-align: center;
+}
+
+/* A small black line above the footer text */
+footer::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    margin: 0 auto 8px;
+    background-color: #1a1a1a;
+}
+
+footer p {
+    margin: 0;
+}
