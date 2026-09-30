@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <!-- this line makes the page fit a phone screen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PostIt - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="addPost.html">Add Post</a></li>
+            </ul>
+        </nav>
+        <a class="avatar" href="login.html">&#128100;</a>
+    </header>
+
+    <main>
+        <aside class="sidebar"></aside>
+
+        <!-- Middle column with all posts -->
+        <div class="feed">
+
+            <!-- Post 1 (with a photo) -->
+            <article class="post">
+                <header class="post-header">
+                    <span class="post-avatar"></span>
+                    <time datetime="2026-09-28">Sep 29, 2026</time>
+                </header>
+                <img src="images/tartu1.jpg" alt="Night view of Tartu with a lit-up bridge">
+                <p>Tartu at night. The lit-up bridge looks amazing!</p>
+                <button class="like-btn" type="button">&#128077;</button>
+            </article>
+
+            <!-- Post 2 (text only, no photo) -->
+            <article class="post">
+                <header class="post-header">
+                    <span class="post-avatar"></span>
+                    <time datetime="2026-09-27">Sep 27, 2026</time>
+                </header>
+                <p>Can anyone recommend a good event for students in Tartu this week?</p>
+                <button class="like-btn" type="button">&#128077;</button>
+            </article>
+
+            <!-- Post 3 (with a photo) -->
+            <article class="post">
+                <header class="post-header">
+                    <span class="post-avatar"></span>
+                    <time datetime="2026-09-25">Aug 30, 2026</time>
+                </header>
+                <img src="images/tartu2.jpg" alt="Tartu old town and the river from above">
+                <p>Tartu from above on a sunny summer day.</p>
+                <button class="like-btn" type="button">&#128077;</button>
+            </article>
+
+            <!-- Post 4 (with a photo) -->
+            <article class="post">
+                <header class="post-header">
+                    <span class="post-avatar"></span>
+                    <time datetime="2026-09-22">Sep 22, 2026</time>
+                </header>
+                <img src="images/tartu3.jpg" alt="Christmas tree and lights in the city center">
+                <p>Christmas lights in the city center last year.</p>
+                <button class="like-btn" type="button">&#128077;</button>
+            </article>
+
+            <!-- Post 5 (with a photo) -->
+            <article class="post">
+                <header class="post-header">
+                    <span class="post-avatar"></span>
+                    <time datetime="2026-09-20">Sep 20, 2026</time>
+                </header>
+                <img src="images/tartu4.jpg" alt="Inside a nice cafe with green chairs">
+                <p>Coffee break after the lecture. Great place to study!</p>
+                <button class="like-btn" type="button">&#128077;</button>
+            </article>
+
+            <!-- Post 6 (with a photo) -->
+            <article class="post">
+                <header class="post-header">
+                    <span class="post-avatar"></span>
+                    <time datetime="2026-09-18">Sep 18, 2026</time>
+                </header>
+                <img src="images/tartu5.jpg" alt="Autumn view of a big building next to the river">
+                <p>Autumn colors by the river.</p>
+                <button class="like-btn" type="button">&#128077;</button>
+            </article>
+
+        </div>
+
+        <aside class="sidebar"></aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PostIt</p>
+    </footer>
+
+</body>
+
+</html>
