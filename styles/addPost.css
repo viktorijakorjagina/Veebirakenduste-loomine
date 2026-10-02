@@ -43,3 +43,13 @@
     padding: 5px 12px;
     cursor: pointer;
 }
+
+/* Adjacent sibling selector */
+label + textarea {
+    border-color: #888;
+}
+
+/* General sibling selector */
+textarea ~ input {
+    font-family: inherit;
+}
