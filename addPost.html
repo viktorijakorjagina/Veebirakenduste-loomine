@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/addPost.css">
-    <title>addPost</title>
+    <title>PostIt - Add Post</title>
 </head>
 
 <body>
@@ -22,12 +22,16 @@
     </header>
 
     <main>
-        <form class="post-container" action="index.html" method="post">
-            <label for="post-body">Post body</label>
-            <textarea id="post-body" name="post-body" placeholder="textarea"></textarea>
+        <form class="post-container" action="index.html">
+            <div class="form-row">
+                <label for="post-body">Post body</label>
+                <textarea id="post-body" name="post-body" placeholder="textarea"></textarea>
+            </div>
 
-            <label for="file-selector">Select file</label>
-            <input type="file" id="file-selector" name="Choose file">
+            <div class="form-row">
+                <label for="file-selector">Select file</label>
+                <input type="file" id="file-selector" name="file">
+            </div>
 
             <input class="create-post-button" type="submit" value="Create post">
         </form>

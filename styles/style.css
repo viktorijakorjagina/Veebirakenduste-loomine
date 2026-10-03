@@ -58,9 +58,6 @@ nav a:hover {
     height: 36px;
     border-radius: 50%;
     background-color: #ebe8e2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Shared parts for other pages */
