@@ -12,8 +12,7 @@ main {
 
     width: 90%;
     max-width: 400px;
-    min-width: 250px;
-    margin: 50px auto;
+    margin: 50px;
     padding: 30px;
 
     background-color: lightgray;
@@ -22,11 +21,12 @@ main {
 
 .form-row {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 15px;
 }
 
-/* Descendant selector */
+/* Descendant Selector */
 .post-container label {
     width: 90px;
     text-align: right;
@@ -35,14 +35,17 @@ main {
 
 #post-body {
     flex: 1;
+    min-width: 100px;
     height: 120px;
 }
 
-#file-selector {
+/* Child selector */
+.form-row > input {
     flex: 1;
-    min-width: 0;
+    min-width: 100px;
 }
 
+/* Pseudo-element */
 #file-selector::file-selector-button {
     padding: 5px 10px;
     border: 1px solid #636262;
@@ -51,22 +54,18 @@ main {
     cursor: pointer;
 }
 
-.create-post-button {
+/* General sibling selector */
+.form-row ~ .create-post-button {
     align-self: center;
     margin-top: 20px;
+    padding: 6px 15px;
 
     background-color: #4189d2;
     color: white;
-    padding: 6px 15px;
     cursor: pointer;
 }
 
 /* Adjacent sibling selector */
 label + textarea {
     border-color: #888;
-}
-
-/* General sibling selector */
-textarea ~ input {
-    font-family: inherit;
 }
