@@ -1,1 +1,82 @@
-
+[
+  {
+    "id": 1,
+    "author": "Viktorija Korjagina",
+    "createdAt": "2026-10-01",
+    "text": "Tartu at night looks magical. The bridge lights are so beautiful!",
+    "image": "images/tartu1.jpg",
+    "likes": 14
+  },
+  {
+    "id": 2,
+    "author": "Maria Elisa Vassiljeva",
+    "createdAt": "2026-10-03",
+    "text": "The old town from above.",
+    "image": "images/tartu2.jpg",
+    "likes": 9
+  },
+  {
+    "id": 3,
+    "author": "Milena Nikishina",
+    "createdAt": "2026-10-05",
+    "text": "The Christmas tree is already up in the city centre.",
+    "image": "images/tartu3.jpg",
+    "likes": 21
+  },
+  {
+    "id": 4,
+    "author": "Viktorija Korjagina",
+    "createdAt": "2026-10-07",
+    "text": "Found a really nice cafe for studying. Coffee and cakes are great here.",
+    "image": "images/tartu4.jpg",
+    "likes": 6
+  },
+  {
+    "id": 5,
+    "author": "Maria Elisa Vassiljeva",
+    "createdAt": "2026-10-09",
+    "text": "Autumn colours around the university campus by the river.",
+    "image": "images/tartu5.jpg",
+    "likes": 17
+  },
+  {
+    "id": 6,
+    "author": "Milena Nikishina",
+    "createdAt": "2026-10-11",
+    "text": "Lunch break at the campus canteen.",
+    "image": "images/tartu6.jpg",
+    "likes": 4
+  },
+  {
+    "id": 7,
+    "author": "Viktorija Korjagina",
+    "createdAt": "2026-10-13",
+    "text": "A bright and sunny study space. Perfect place to work on our homework!",
+    "image": "images/tartu7.jpg",
+    "likes": 11
+  },
+  {
+    "id": 8,
+    "author": "Maria Elisa Vassiljeva",
+    "createdAt": "2026-10-15",
+    "text": "Big lecture hall before the lecture starts.",
+    "image": "images/tartu8.jpg",
+    "likes": 8
+  },
+  {
+    "id": 9,
+    "author": "Milena Nikishina",
+    "createdAt": "2026-10-18",
+    "text": "The Christmas market in Tartu is full of lights.",
+    "image": "images/tartu9.jpg",
+    "likes": 19
+  },
+  {
+    "id": 10,
+    "author": "Viktorija Korjagina",
+    "createdAt": "2026-10-20",
+    "text": "My student room. Small, but comfortable and close to everything.",
+    "image": "images/tartu10.jpg",
+    "likes": 13
+  }
+]
