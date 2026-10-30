@@ -85,3 +85,18 @@ main {
     display: none;
   }
 }
+
+.like-btn.liked {
+    background-color: #e0ecb0;
+    color: #170808;
+}
+
+.like-count {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.post-header > span:not(.post-avatar) {
+    margin-left: 8px;
+    font-size: 13px;
+}
