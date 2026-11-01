@@ -53,11 +53,57 @@ nav a:hover {
 }
 
 /* Round profile icon on the right */
+.avatar {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
 .avatar img{
+    display: block;
     width: 36px;
     height: 36px;
     border-radius: 50%;
     background-color: #ebe8e2;
+}
+
+/* Profile dropdown */
+.profile-dropdown {
+    display: none;
+    position: absolute;
+    top: 65px;
+    right: 24px;
+    background-color: white;
+    border: 1px solid #e9e6e0;
+    border-radius: 12px;
+    padding: 15px;
+    z-index: 10; /* keeps the dropdown above the posts */
+}
+
+/* Show dropdown when clicked */
+.profile-dropdown.show {
+    display: block;
+}
+
+/* Profile information */
+.profile-dropdown p {
+    margin: 5px 0;
+    padding: 3px 8px;
+}
+
+/* Logout link */
+.profile-dropdown a {
+    display: block;
+    padding: 3px 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.profile-dropdown a:hover {
+    background-color: #ebe8e2;
+    cursor: pointer;
 }
 
 /* Shared parts for other pages */

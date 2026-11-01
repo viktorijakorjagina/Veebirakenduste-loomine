@@ -44,3 +44,12 @@ main{
     background-color: #4189d2;
     color: aliceblue;
 }
+
+/* Logged out profile icon */
+.login-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #d8d4cc;
+    display: block;
+}
